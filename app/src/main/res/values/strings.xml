@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Task8Kotlin</string>
+    <string name="actionBarTitle">AlarmManager</string>
+    <string name="default_notification_channel_id">1</string>
+
+    <string name="myChannel">My Channel</string>
+    <string name="myChanneId">my_channel_id</string>
+    <string name="splashTitle">Background Services</string>
+    <string name="delete_all">Delete All</string>
+    <string name="intentKey">ObjectId</string>
+    <string name="time">Time:</string>
+    <string name="nothingFound">No Data Found!</string>
+    <string name="cannotUpdate">Alarm is already Scheduled, Cannot Update!</string>
+    <string name="alarmScheduled">Alarm Scheduled!</string>
+    <string name="failedScheduled">Alarm Shedule Failed: Add Alarm 10 minutes greater then Now</string>
 </resources>

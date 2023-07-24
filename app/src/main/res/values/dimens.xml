@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">0dp</dimen>
+
+    <dimen name="textSizeMain"></dimen>
+    <dimen name="textMain"></dimen>
+    <dimen name="textSizeGraph"></dimen>
+    <dimen name="textGraph"></dimen>
+    <dimen name="textSizeAddNew"></dimen>
+    <dimen name="textAddNew"></dimen>
+    <dimen name="enterNameHorMar">100dp</dimen>
+    <dimen name="enterNameHeight">50dp</dimen>
+    <dimen name="enterNameTopMar">30dp</dimen>
+    <dimen name="ButtonWidth">150dp</dimen>
+    <dimen name="ButtonHeight">48dp</dimen>
+    <dimen name="ButtonTopMar">10dp</dimen>
+    <dimen name="ButtonTextSize">13sp</dimen>
+    <dimen name="LinearMarjin">60dp</dimen>
+    <dimen name="chartMarjinTop">20dp</dimen>
+    <dimen name="fakeTolbarWidth">10dp</dimen>
+    <dimen name="newListButHeight">50dp</dimen>
+    <dimen name="mainTextSize">16sp</dimen>
+    <dimen name="mainButtonTopMar">80dp</dimen>
+    <dimen name="zeroDp">0dp</dimen>
+    <dimen name="cardViewLM">15dp</dimen>
+    <dimen name="cardViewRadius">10dp</dimen>
+    <dimen name="recyclerLM">15dp</dimen>
+    <dimen name="splashTvHeight">55dp</dimen>
+    <dimen name="detailRecHeight">80dp</dimen>
+    <dimen name="marHorSplash">40dp</dimen>
+    <dimen name="detailRecRad">10dp</dimen>
+    <dimen name="ImageVDetailRec">60dp</dimen>
+    <dimen name="TsDetailRec">20sp</dimen>
+    <dimen name="detailRecWidth">160dp</dimen>
+    <dimen name="dialogTxtSize">14sp</dimen>
+    <dimen name="dialogEdHeight">70dp</dimen>
+    <dimen name="dialogPbutMarRit">5dp</dimen>
+    <dimen name="PosButWid">120dp</dimen>
+    <dimen name="mainCardHeight">350dp</dimen>
+    <dimen name="mainCrdTopMargin">70dp</dimen>
+    <dimen name="progressTopMrgn">10dp</dimen>
+    <dimen name="splashTitleTopMrgn">2dp</dimen>
+    <dimen name="detailConstraintHeight">85dp</dimen>
+    <dimen name="detailConstraintPdng">5dp</dimen>
+    <dimen name="recyclerHeight">65dp</dimen>
+    <dimen name="cardCornerRadi">5dp</dimen>
+    <dimen name="detInerConsML">20dp</dimen>
+    <dimen name="detInerConsMR">40dp</dimen>
+    <dimen name="detInerCons">40dp</dimen>
+    <dimen name="detInerConsMB">30dp</dimen>
+    <dimen name="circularImageHT">55dp</dimen>
+    <dimen name="circularImageWT">55dp</dimen>
+    <dimen name="circularImagePadd">5dp</dimen>
+    <dimen name="circularImageStroke">3dp</dimen>
+    <dimen name="userIdWidth">150dp</dimen>
+    <dimen name="userIdTxtSize">12sp</dimen>
+    <dimen name="userIdML">15dp</dimen>
+    <dimen name="userIdMR">10dp</dimen>
+    <dimen name="userNameHeight">150dp</dimen>
+    <dimen name="detInConsthing">55dp</dimen>
+    <dimen name="widgetRelativeHeight">250dp</dimen>
+    <dimen name="widgetUserImageWT">128dp</dimen>
+    <dimen name="widgetUserImagePD">3sp</dimen>
+    <dimen name="widgetUserImageHT">100dp</dimen>
+    <dimen name="widgetUserImageTM">20dp</dimen>
+    <dimen name="userIDIconRightPD">8sp</dimen>
+    <dimen name="userIDIconTM">6dp</dimen>
+    <dimen name="userIDIconWT">35dp</dimen>
+    <dimen name="widgetUserIdLM">2dp</dimen>
+    <dimen name="widgetUserIdWT">40dp</dimen>
+    <dimen name="widgetUserIdHT">30dp</dimen>
+    <dimen name="widgetUserIdTM">6dp</dimen>
+    <dimen name="widgetUserIdTxtSize">14sp</dimen>
+    <dimen name="userNameIconLYM">6dp</dimen>
+    <dimen name="userNameIconRightPD">8sp</dimen>
+    <dimen name="userNameIconWT">35dp</dimen>
+    <dimen name="widgetUserNameLM">2dp</dimen>
+    <dimen name="widgetUserNameTM">6dp</dimen>
+    <dimen name="widgetUserNameWT">40dp</dimen>
+    <dimen name="widgetUserNameHT">30dp</dimen>
+    <dimen name="widgetUserNameTxtSize">14sp</dimen>
+    <dimen name="cardViewMT">16dp</dimen>
+    <dimen name="cardViewMB">60dp</dimen>
+    <dimen name="hundredDp">100dp</dimen>
+    <dimen name="TwentyEightD">28dp</dimen>
+    <dimen name="twelveDp">12dp</dimen>
+    <dimen name="fiftyDp">50dp</dimen>
+    <dimen name="fiveDp">5dp</dimen>
+    <dimen name="twelveSp">12sp</dimen>
+    <dimen name="seventyDp">70dp</dimen>
+    <dimen name="tenDp">10dp</dimen>
+</resources>
