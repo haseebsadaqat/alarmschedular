@@ -31,6 +31,7 @@ class AlarmReciever : BroadcastReceiver() {
             AppDatabase.getInstance(context).usersDao().updateBooleanValueByStringValue(idWithTime.substring(2),true)
         }
         showNotification(context,context.getString(R.string.time),idWithTime)
+
     }
     @SuppressLint("MissingPermission")
     private fun showNotification(context: Context, title: String?, body: String?) {
