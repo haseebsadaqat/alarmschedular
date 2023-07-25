@@ -58,11 +58,10 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.MyViewHolder>() {
         return alarmList.size
     }
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-
-            holder.binding.alarmTime.text = ""+alarmList[position].time.toString().substring(11,16) +
-            " | "+alarmList[position].time.toString().substring(8,10)+ "-" +
-                    (alarmList[position].time.toString().substring(5,7).toInt()+1) +
-                    "-"+ alarmList[position].time.toString().substring(2,4)
+        holder.binding.detailRecyclerText = ""+alarmList[position].time.toString().substring(11,16) +
+                " | "+alarmList[position].time.toString().substring(8,10)+ "-" +
+                (alarmList[position].time.toString().substring(5,7).toInt()+1) +
+                "-"+ alarmList[position].time.toString().substring(2,4)
         holder.binding.delAlarm.setOnClickListener(View.OnClickListener {
             if(alarmList[position].delAction==true){
             var appRepository=AppRepository(application ?: return@OnClickListener  )
@@ -82,8 +81,6 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.MyViewHolder>() {
                         }
                         //if last elemet remain in list then it executes
                       }else if(alarmList.size==1){
-                          Toast.makeText(it.context,"Removing Last Item at :"+position,Toast.LENGTH_LONG).show()
-                          Log.d(TAG, "zero position time: "+LocalDateTime.parse(alarmList[position].time.toString())+" pos"+position)
                           try {
                               GlobalScope.launch(Dispatchers.IO) {
                                   appRepository.deleteAllEntries()

@@ -34,9 +34,7 @@ class MainActivity : AppCompatActivity() {
         binding= DataBindingUtil.setContentView(this@MainActivity, R.layout.activity_main)
         setContentView(binding.root)
         initialSetup()
-
         onClickListeners()
-
         observeFromRoom()
     }
     private fun observeFromRoom() {
@@ -45,6 +43,7 @@ class MainActivity : AppCompatActivity() {
          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
              if(!it.isNullOrEmpty()){
              for(i in it){
+
              ldtDataModellist.add(DataModel(id = i.id, time = LocalDateTime.parse(i.time), delAction = i.delAction))
                     }
                  viewModel.dataModellist= ldtDataModellist
@@ -92,6 +91,7 @@ recyclerAdapter.setUpdateClick(object : RecyclerAdapter.OnClickListener {
             datePicker.show()
         } else {
         }
+
     }
     @SuppressLint("NewApi")
       fun pickTime(year: Int, month: Int, dayOfMonth: Int) {
@@ -135,7 +135,7 @@ recyclerAdapter.setUpdateClick(object : RecyclerAdapter.OnClickListener {
     private fun initialSetup() {
         //action bar and circular progress bar
         var actionbar= supportActionBar
-        actionbar!!.setTitle(getString(R.string.actionBarTitle))
+        actionbar?.setTitle(getString(R.string.actionBarTitle))
         actionBar?.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.themeColor)))
         //view model initialization
         viewModel = ViewModelProvider(this)[MainViewModel::class.java]

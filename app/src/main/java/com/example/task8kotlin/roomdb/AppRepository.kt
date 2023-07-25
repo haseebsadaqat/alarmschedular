@@ -16,8 +16,7 @@ class AppRepository(application: Application) {
             var timeStringDataModel=TimeStringDataModel(id=dataModel.id,time=LocalDateTime.parse(dataModel.time.toString()).toString(), delAction = dataModel.delAction)
 
             AppDatabase.getInstance(application.applicationContext).usersDao().insert(timeStringDataModel)
-        }
-    }
+        } }
 
    suspend fun delete(stringdataModel: TimeStringDataModel){
         AppDatabase.getInstance(application.applicationContext).usersDao().delete(stringdataModel)
