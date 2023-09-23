@@ -8,8 +8,21 @@ Following Componenets are used to fire alarm when app is closed
 1. Broadcast Reciver
 2. Alarm Manager
 
+
 **Screenshots**
-![AlarmManagerSs1200](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/e1b623dc-8a84-47fb-9289-d8778f6b89b7)
+
+![alarmmagerss2300](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/b5157d35-008e-4248-90af-06dc96c6b6be)
+
+
+
+![AlarmManagerSs1300](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/37c2dc62-bf2c-4244-889d-2b0570f012fd)
+
+
+
+
+![alarmmanagerss3300](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/ef7da002-f4c5-4336-81af-092f86386a3e)
+
+
 
 
 
