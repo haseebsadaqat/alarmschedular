@@ -9,9 +9,6 @@ Following Componenets are used to fire alarm when app is closed
 2. Alarm Manager
 
 **Screenshots**
-
-![alarmmanagerss3](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/d2c72a99-3427-4512-8a4d-f5456756cdc1)
-![alarmmagerss2](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/f5e11c95-bdda-4b28-8f70-4ead1a126dfa)
-![AlarmManagerSs1](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/81c03a58-0fb9-4083-99e8-1ed992187ec5)
+![AlarmManagerSs1ppw](https://github.com/haseebsadaqat/alarmschedular/assets/48862033/d78b7035-e8c7-427a-aba4-9657fa558b8c)
 
 
